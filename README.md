@@ -24,7 +24,7 @@ The ETL pipeline conducts the following 3 things to build the database:
 - `etl.py` - runs the entire ETL pipline described above.
 - `spotify.db` - The SQLite database.
 - `visualization.ipynb` - The notebook used for building the visualations.
-- `visualization.pdf` - Contains the visualizations built in `visualization.ipynb`.
+- `visualization.pdf` - Presents the visualizations built in `visualization.ipynb`.
 - `run.py` - Runs the necessary files in order to complete the project via subprocess. It first executes `create_database.py` followed by `etl.py`.
 
 # How to Run
