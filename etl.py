@@ -97,7 +97,7 @@ def process_album_data(df):
     album_df['artist_id'] = df['artists'].map(lambda l: l[0]['id'])
     
 
-    #album_df = album_df.drop_duplicates(subset=['album_name', 'release_date', 'total_tracks', 'artist_id'])
+    album_df = album_df.drop_duplicates(subset=['album_name', 'release_date', 'total_tracks', 'artist_id'])
 
     return album_df
 
